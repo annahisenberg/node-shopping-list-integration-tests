@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: pbvfHIvEWlFEVN4v22AltxMlIEOK+fhlQyfYsYK9luDBT6MM8ELXedJ8Llpx+b1vPBDJCacgnOgaIs5TbFEF/qVT0QFaa769I3sQdg8nNgGhMmSSTVD8ngRgt+hFAqStVvLcOQPsCg2jB9/viRazJv2UnwJ/2xzTKgTh8l7O48Ws1TNpyNAYLSV8DNohjBU70LuwNMg9O4mIVcNebQmtyXX9FcXa95VjoMj0hMejr6NHZMCmHGMmZUDIPWbs+AIu3eAJJFBIrglnhkywJm+hrrIWuYon5AKAugSFON9UfXFg37DLXZL7ykC8NQvCTT2R+ETx/XWmWz7Xx++aLXHtzLQSKZlE9aBfok4owGl7u0zua+mUoirCIkKyFJIaEhqPkJg+P+Cja2dWSFki/CHQvG6KoplCk/6L6BIk+VBCbdexuH12urTxfYQ7ufY1EyS24HHOEK+QvC+C+J6CWxBzOCHuFTbpy19WrQbMispCaCl6Jiu8O93HaAAo73AyuoQgp1k6RZoL4hUhgVrnQW+bDJgP9a9G4mGYqfzZsFYVnq+MDSaIECzDfaWIkl0e2CNQWUVRarXAu5wIwwMMpRBBd4oUIPUqZLtsDz8ruKxgYKgC4ta5PVa8Qmbsm/CLfXqMpQhC8oG+h/08Ijnp0u4WeHFyIXiocMZC0T92Z3GkxvU=
+  app: shielded-eyrie-29379
+  on:
+    repo: annahisenberg/node-shopping-list-integration-tests
