@@ -238,6 +238,7 @@ describe('Recipes', function () {
       });
   });
 
+  //delete test
   it('should delete items on DELETE', function () {
     return chai.request(app)
       // first have to get so we have an `id` of item
